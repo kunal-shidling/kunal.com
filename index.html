@@ -9,15 +9,47 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="box" style="display: none;">
+
+        <span class="borderline"></span>
+        <form>
+            <i class="fa-solid fa-xmark" id="back-log"></i>
+            <h2>Sign In</h2>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>User Name</span>
+            
+            <i></i>
+        </div>
+            <div class="inputbox">
+                <input type="password" required="required">
+                <span>password</span>
+           
+            <i></i>
+        </div>
+            <div class="links">
+                <a href="forgotpwd.html">Forgot password?</a>
+                <a href="#">SignUp</a>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+     </div>
     <div id="main">
         <header>
             <div class="nav">
-                <div class="logo">LOGO</div>
+                <div class="logo" alt="">
+                    | <i class="fa-solid fa-house"></i> |  <br>
+                    <h4>SunCity</h4>
+                    
+                </div>
                 <div class="menu-links">
                     <h4><a href="#">Home</a></h4>
                     <h4><a href="#">About</a></h4>
                     <h4><a href="#">Contact</a></h4>
                     <h4><a href="#">Other</a></h4>
+                    <div class="login">
+                        <h4><a href="#"  id="login-disp"><i class="fa-solid fa-user"></i>LogIn</a></h4>
+                    </div>
                 </div>
             </div>
         </header>
@@ -32,7 +64,7 @@
      
 
         <div class="search">
-          <center><i class="fa fa-home" aria-hidden="true"></i><input type="text" placeholder="search for Property's">
+          <center><i class="fa fa-home" aria-hidden="true" style="color: black;"></i><input type="text" placeholder="search for Property's">
             <select name="" id="">
                 <option value="#">Select</option>
                 <option value="">Apartment</option>
@@ -81,11 +113,206 @@
                 </div>
 
             </div>
+
+            <!-- Apartments -->
+
+
+        <section id="destination" class="destination">
+            <h2><u>Apartments.</u></h2>
+            <div class="destination-grid">
+                <div class="destination-items">
+                    <img src="images/apartment1.jpg" alt="">
+                    <h3>Apartments between : 50Lak - 1cr</h3>
+                    <!-- <p>An Apartment is not just a wall and roof it's
+                        a canvas where memories are painted.
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/apartment5.jpg" alt="">
+                    <h3><h3>luxurious Apartments between : 1.2cr - 2cr</h3></h3>
+                    <!-- <p>
+                        Experience the romance and culture of the City of Lights, from the Eiffel Tower 
+                        to the Louvre Museum.
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/apartment3.jpg" alt="">
+                    <h3>luxurious Apartments between : 1.9cr - 3.2cr</h3>
+                    <!-- <p>
+                        Explore the vibrant city of Tokyo and immerse yourself in it's unique blend 
+                        of ancient traditions and modern technology.
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Houses -->
+
+
+        <section id="hotels" class="destination">
+            <h2><u>Houses/Villa's.</u></h2>
+            <div class="destination-grid">
+                <div class="destination-items">
+                    <img src="images/house1.jpg" alt="">
+                    <h3>luxurious Villa's between : 1.2cr - 2cr</h3>
+                    <!-- <p>Experience luxury accomodations and impeccable service at the Ritz Carlton,
+                        located in the heart of city. 
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/house4.jpg" alt="">
+                    <h3>luxurious House's between : 95lak - 2cr</h3>
+                    <!-- <p>
+                        Relax in style at the Four Seasons, featuring breathtaking views, an 
+                        award-winning spa, and gourest dinning options.
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/house3.jpg" alt="">
+                    <h3>luxurious Home's between : 1cr - 1.9cr</h3>
+                    <!-- <p>
+                        Indulge in luxury at the Waldorf Astoria, a historic landmark hotel renowned
+                         for it's alegance and sophistication. 
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- plots -->
+
+        <section id="hotels" class="destination">
+            <h2><u>Plots/Lands.</u></h2>
+            <div class="destination-grid">
+                <div class="destination-items">
+                    <img src="images/land3.jpg" alt="">
+                    <h3>Land's between : 90Lk - 2.34cr</h3>
+                    <!-- <p>Experience luxury accomodations and impeccable service at the Ritz Carlton,
+                        located in the heart of city. 
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/land1.jpg" alt="">
+                    <h3>The Four Season : 50Lk - 2cr</h3>
+                    <!-- <p>
+                        Relax in style at the Four Seasons, featuring breathtaking views, an 
+                        award-winning spa, and gourest dinning options.
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/land2.jpg" alt="">
+                    <h3>The Waldorf Astoria : 10Lk - 80Lk</h3>
+                    <!-- <p>
+                        Indulge in luxury at the Waldorf Astoria, a historic landmark hotel renowned
+                         for it's alegance and sophistication. 
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Office Space -->
+
+        <section id="hotels" class="destination">
+            <h2><u>Office Space.</u></h2>
+            <div class=" destination-grid">
+                <div class="destination-items">
+                    <img src="images/offspace1.jpg" alt="">
+                    <h3>The Ritz Carlton : 50Lk : 2.25cr</h3>
+                    <!-- <p>Experience luxury accomodations and impeccable service at the Ritz Carlton,
+                        located in the heart of city. 
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/offspace2.jpg" alt="">
+                    <h3>The Four Season : 70Lk : 3cr</h3>
+                    <!-- <p>
+                        Relax in style at the Four Seasons, featuring breathtaking views, an 
+                        award-winning spa, and gourest dinning options.
+                    </p> -->
+                </div>
+                <div class="destination-items">
+                    <img src="images/offspace3.jpg" alt="">
+                    <h3>The Waldorf Astoria : 34Lk : 2.90cr</h3>
+                    <!-- <p>
+                        Indulge in luxury at the Waldorf Astoria, a historic landmark hotel renowned
+                         for it's alegance and sophistication. 
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact us -->
+
+        <!-- Contact Details -->
+
+        <section id="contact" class="contact">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <p>
+                    <!-- If you have anu questions or would you like to book a trip, please fill
+                    out the form below or contact us using the information provided. -->
+                    Thank You! for your respond Give Your information suggested Below, Please Fill out Details 
+                    and give Your valuble Messege for us.
+                </p>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>India</li>
+                    <li>
+                        <!-- <i class="fa fa-map-marker" aria-hidden="true" ><a href="file:///D:/Project/project1.html">
+                        </a>-->SunCity Realestate Pvt/Ltd.</i></li> 
+                    <li><i class="fa fa-map-marker" aria-hidden="true" ><a href="tel-558-123-2656">555-123-2656</a></i></li>
+                </ul>
+            </div>
+            <form action="" class="form">
+                <div class="form-group">
+                    <input type="name" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="message"></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="social">
+                <a href="#" target="_blank"><i></i></a>
+                <a href="#" target="_blank"><i></i></a>
+                <a href="#" target="_blank"><i></i></a>
+            </div>
+            <p>&copy; 2023 your Travel Website. All Rights Reserved. </p>
+        </footer>
+
         </div>
      
     </div>
 
 
-  
+    <!-- login form here -->
+
+     <script>
+
+
+        var box = document.getElementById("box");
+        var login = document.getElementById("login-disp");
+        var main = document.getElementById("main");
+
+        var back = document.getElementById("back-log");
+
+        login.addEventListener('click', function(){
+            box.style.display = 'block'
+            main.style.display = 'none'
+        })
+
+        back.addEventListener('click', function(){
+            box.style.display = 'none'
+            main.style.display = 'block'
+        })
+
+     </script>
 </body>
 </html>
